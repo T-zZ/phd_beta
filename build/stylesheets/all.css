@@ -1,0 +1,146 @@
+/* Fonts */
+@font-face {
+  font-family: "Kabel Heavy";
+  src: url("/fonts/KabelLTStd-Heavy.otf");
+  src: local("Kabel Heavy"), url("/fonts/KabelLTStd-Heavy.otf") format("opentype");
+  font-weigth: Heavy;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Kabel Black";
+  src: url("/fonts/KabelLTStd-Black.otf");
+  src: local("Kabel Black"), url("/fonts/KabelLTStd-Black.otf") format("opentype");
+  font-weigth: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular.ttf");
+  src: local("Open Sans"), url("/fonts/OpenSans-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Bold.ttf");
+  src: local("Open Sans"), url("/fonts/OpenSans-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Light.ttf");
+  src: local("Open Sans"), url("/fonts/OpenSans-Light.ttf") format("ttf");
+  font-weight: light;
+  font-style: normal; }
+
+/* line 41, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+body {
+  background: #f2f2f2;
+  margin-top: 3em; }
+
+/* line 47, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+.container {
+  width: 1100px; }
+
+/* line 50, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+.title {
+  color: black;
+  margin: 3em 0 2em 0; }
+
+/* line 57, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+.newsletter {
+  left: 650px;
+  position: absolute;
+  top: 290px;
+  background-color: white;
+  padding: 20px 20px 0 24px;
+  width: 530px; }
+
+/* line 65, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+h6 {
+  font-family: "Open sans", arial; }
+
+/* line 69, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+#mc_embed_signup {
+  font-family: "Open sans", arial;
+  margin-top: 2em; }
+
+/* line 73, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+.mc-field-group {
+  float: left; }
+
+/* line 76, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+.hide {
+  float: left;
+  margin: 20px 0 0 20px; }
+
+/* line 82, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+.title {
+  font-size: 1.3em;
+  font-family: "Open Sans"; }
+
+/* line 86, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+.sidebar {
+  font-family: "Open Sans";
+  font-size: 1.1em;
+  font-weight: 300; }
+
+/* line 92, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+.photography {
+  padding-left: 60px; }
+  /* line 95, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+  .photography img {
+    width: 100%; }
+  /* line 98, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+  .photography .cadre {
+    top: 30px;
+    background-color: white;
+    display: block;
+    margin: 20px;
+    padding: 14px 14px 9px 14px;
+    position: absolute; }
+  /* line 108, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+  .photography .arizona {
+    top: 560px;
+    left: 324px;
+    width: 255px; }
+  /* line 113, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+  .photography .bleu {
+    left: 220px;
+    top: 270px;
+    width: 360px; }
+  /* line 118, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+  .photography .dhotelland {
+    width: 280px; }
+  /* line 121, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+  .photography .left {
+    left: 256px; }
+  /* line 124, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+  .photography .right {
+    left: 560px;
+    padding-left: 0px; }
+  /* line 128, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+  .photography .femmeauvert {
+    left: 876px;
+    top: 54px;
+    width: 165px; }
+  /* line 133, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+  .photography .paysage {
+    top: 580px;
+    left: 630px;
+    width: 450px; }
+
+@media screen and (max-width: 468px) {
+  /* line 139, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+  body {
+    margin-top: 5em; }
+
+  /* line 142, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+  .title {
+    font-size: 2em;
+    margin-top: 2em; }
+
+  /* line 146, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/all.css.sass */
+  h4 {
+    font-size: 1.2em; } }

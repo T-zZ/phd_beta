@@ -1,0 +1,110 @@
+/* Fonts */
+@font-face {
+  font-family: "Kabel Heavy";
+  src: url("/fonts/KabelLTStd-Heavy.otf");
+  src: local("Kabel Heavy"), url("/fonts/KabelLTStd-Heavy.otf") format("opentype");
+  font-weigth: Heavy;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Kabel Black";
+  src: url("/fonts/KabelLTStd-Black.otf");
+  src: local("Kabel Black"), url("/fonts/KabelLTStd-Black.otf") format("opentype");
+  font-weigth: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular.ttf");
+  src: local("Open Sans"), url("/fonts/OpenSans-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Bold.ttf");
+  src: local("Open Sans"), url("/fonts/OpenSans-Bold.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal; }
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Light.ttf");
+  src: local("Open Sans"), url("/fonts/OpenSans-Light.ttf") format("ttf");
+  font-weight: light;
+  font-style: normal; }
+
+/* line 43, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+body {
+  background: #f2f2f2; }
+
+/* line 47, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+.container {
+  font-family: "Open Sans";
+  margin-top: 3em; }
+  /* line 52, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+  .container a {
+    color: #666666;
+    text-decoration: none; }
+  /* line 56, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+  .container a:hover {
+    color: black; }
+
+/* line 59, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+.sidebar {
+  margin-top: 2em; }
+  /* line 63, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+  .sidebar #logo {
+    margin-top: 1em; }
+  /* line 66, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+  .sidebar h1 a {
+    font-family: "Open Sans", "Merriweather", "Arial";
+    font-size: 1.5em;
+    font-weight: light;
+    color: black; }
+
+/* line 72, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+.menu {
+  margin: 4em 0 0 1em; }
+  /* line 75, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+  .menu .first {
+    border: 1px solid red;
+    padding-left: 14px;
+    background-image: url("scroll-to-up.png");
+    background-repeat: no-repeat;
+    background-position: 0px 10px; }
+  /* line 82, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+  .menu li {
+    line-height: 1.8em; }
+    /* line 85, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+    .menu li ul ul {
+      margin-bottom: 1.4em; }
+      /* line 89, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+      .menu li ul ul li {
+        line-height: 1.4em; }
+
+/* line 93, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+.photography {
+  margin: 8em 0 0 0;
+  padding: 0 0 0 2em; }
+
+/* line 98, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+.fotorama {
+  background-color: white; }
+
+/* line 102, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+.footer {
+  clear: both;
+  float: left; }
+
+/* line 108, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+#body_content h1 {
+  color: yellow;
+  font-family: "Open Sans"; }
+
+/* Media Queries
+ * ================================================== */
+@media only screen and (max-width: 959px) {
+  /* line 117, /home/theodore/Dev/phd_beta/phd_beta/source/stylesheets/ui.css.sass */
+  body {
+    background-color: red; } }
