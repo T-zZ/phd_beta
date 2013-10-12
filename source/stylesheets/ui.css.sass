@@ -1,0 +1,117 @@
+/* Fonts */
+
+@font-face
+  font-family: 'Kabel Heavy'
+  src: font-url('KabelLTStd-Heavy.otf') 
+  src: local('Kabel Heavy'), font-url('KabelLTStd-Heavy.otf') format('opentype')
+  font-weigth: Heavy
+  font-style: normal
+
+@font-face
+  font-family: 'Kabel Black'
+  src: font-url('KabelLTStd-Black.otf') 
+  src: local('Kabel Black'), font-url('KabelLTStd-Black.otf') format('opentype')
+  font-weigth: bold
+  font-style: normal
+
+@font-face
+  font-family: 'Open Sans'
+  src: font-url('OpenSans-Regular.ttf')
+  src: local('Open Sans'), font-url('OpenSans-Regular.ttf') format('ttf')
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'Open Sans'
+  src: font-url('OpenSans-Bold.ttf')
+  src: local('Open Sans'), font-url('OpenSans-Bold.ttf') format('ttf')
+  font-weight: bold
+  font-style: normal
+
+@font-face
+  font-family: 'Open Sans'
+  src: font-url('OpenSans-Light.ttf')
+  src: local('Open Sans'), font-url('OpenSans-Light.ttf') format('ttf')
+  font-weight: light
+  font-style: normal
+
+//////////////////////
+
+// mini reset
+
+body
+  background: #F2F2F2
+
+
+.container
+  //border: 1px solid black
+  font-family: 'Open Sans'
+  margin-top: 3em
+
+  a 
+    color: #666
+    text-decoration: none
+    
+  a:hover
+    color: black
+
+.sidebar
+  margin-top: 2em
+  //border: 1px solid red
+
+  #logo
+    margin-top: 1em
+
+  h1 a
+    font-family: 'Open Sans', 'Merriweather', 'Arial'
+    font-size: 1.5em
+    font-weight: light
+    color: black
+
+.menu
+  margin: 4em 0 0 1em
+  
+  .first
+    border: 1px solid red
+    padding-left: 14px
+    background-image: url("scroll-to-up.png")
+    background-repeat: no-repeat
+    background-position: 0px 10px
+
+  li
+    line-height: 1.8em
+
+    ul ul
+      //border: 1px solid red
+      margin-bottom: 1.4em
+      
+      li
+        line-height: 1.4em
+      
+
+.photography
+  //border: 1px solid blue
+  margin: 8em 0 0 0
+  padding: 0 0 0 2em 
+
+.fotorama
+  //padding: 20px 
+  background-color: white
+
+.footer
+  clear: both
+  float: left
+
+#body_content
+
+  h1
+    color: yellow
+    font-family: 'Open Sans'
+
+/* Media Queries
+ ================================================== */
+
+@media only screen and (max-width: 959px)
+
+  body
+    background-color: red
